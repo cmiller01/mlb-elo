@@ -22,8 +22,8 @@ jobs:
         pip install poetry
         poetry install
     - name: Lint with flake8
-      run: |
-        poetry run flake8 .
+      run: poetry run flake8 .
     - name: Test with pytest
-      run: |  
-        poetry run pytest
+      run: poetry run pytest
+    - name: Type annotations
+      run: poetry run mypy -p mlb_elo
