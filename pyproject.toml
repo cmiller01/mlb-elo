@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mlb-elo"
+version = "0.1.0"
+description = "mlb-elo"
+authors = ["cmiller01 <christian.david.miller@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "mlb_elo"}]
+
+[tool.poetry.dependencies]
+python = "3.11"
+requests = "^2.31.0"
+pybaseball = "^2.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
