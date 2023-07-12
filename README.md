@@ -7,8 +7,10 @@ Using [Poetry](https://python-poetry.org/):
 
 ```
 # installing dependencies
-poetry install
+poetry install # or python3.11 -m poetry install
 
 # starting development
-poetry shell
+poetry shell # or python3.11 -m poetry shell
 ```
+
+Installing Poetry & Python 3.11 may not be painless 🙁
