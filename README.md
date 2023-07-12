@@ -8,4 +8,7 @@ Using [Poetry](https://python-poetry.org/):
 ```
 # installing dependencies
 poetry install
+
+# starting development
+poetry shell
 ```
