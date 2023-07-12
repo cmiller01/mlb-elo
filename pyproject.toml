@@ -9,8 +9,8 @@ packages = [{include = "mlb_elo"}]
 
 [tool.poetry.dependencies]
 python = "3.11"
-requests = "^2.31.0"
 pybaseball = "^2.2.5"
+pytest = "^7.4.0"
 
 
 [build-system]
