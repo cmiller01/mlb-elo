@@ -2,8 +2,6 @@ from pybaseball import schedule_and_record, cache  # type: ignore
 from typing import Tuple
 from statsapi import *
 
-get_teams()
-
 cache.enable()
 
 def get_teams() -> Tuple[str, ...]:
