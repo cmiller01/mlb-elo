@@ -1491,6 +1491,20 @@ files = [
 ]
 
 [[package]]
+name = "mlb-statsapi"
+version = "1.6.1"
+description = "MLB Stats API Wrapper for Python"
+optional = false
+python-versions = "*"
+files = [
+    {file = "MLB-StatsAPI-1.6.1.tar.gz", hash = "sha256:61abfef7dba7e9d0bba5f73190570660be9c0bb448efa3311c6ec3ce4709efeb"},
+    {file = "MLB_StatsAPI-1.6.1-py3-none-any.whl", hash = "sha256:c178e17530db1b09da343eb377c1f29c016f093e46abd225fd0c5d0e4eb77a16"},
+]
+
+[package.dependencies]
+requests = "*"
+
+[[package]]
 name = "mypy"
 version = "1.4.1"
 description = "Optional static typing for Python"
@@ -3116,4 +3130,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.11"
-content-hash = "cb25e6c01be558270c09f15aa44654ddfa3829ce2be483e4b569a12cd706d19c"
+content-hash = "59d818be300a301ff75ed6dc6edbf2219552f73dfbb48fd9067caf344c10f4fb"
